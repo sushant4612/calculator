@@ -4,7 +4,23 @@
 }
 
 body{
-    background-color: wheat;
+    background-image: url('img3.avif');
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+h1{
+    /* text-align: center;
+     */
+     display: flex;
+     justify-content: center;
+     margin-bottom: -50px;
+    /* text-align: center; */
+    font-weight: bold;
+    /* margin-left: 84px; */
+    font-family: system-ui;
 }
 
 .display{
@@ -12,7 +28,34 @@ body{
     flex-direction: row-reverse;
     color: white;
     height: 37px;
+    font-size: 25px;
+    padding-right: 0px;
+    margin-bottom: 13px;
     margin-right: 17px;
+    font-family: cursive;
+}
+
+button:hover {
+    transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+button:active {
+    box-shadow:7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+    transform: translateY(4px);
+    background-color: #1f2937;
+    /* Moving button 4px to y-axis */
+}
+
+.history{
+    display: flex;
+    flex-direction: row-reverse;
+    color: #ffffff73;
+    height: 23px;
+    font-size: 18px;
+    /* padding-right: 0px; */
+    margin-bottom: 13px;
+    margin-right: 17px;
+    font-family: cursive;
 }
 
 .cal{
